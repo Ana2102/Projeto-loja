@@ -1,0 +1,113 @@
+:root {
+    --color-background: #eee;
+    }
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    }
+    
+    body {
+    background-color: var(--color-background);
+    font-size: 15px;
+    display: flex;
+    min-height: 100vh;
+    }
+
+    main{
+        flex: 1;
+        padding: 20px;
+    }
+
+    header{
+        display: none;
+    }
+
+    .cart-area{
+        display: none;
+    }
+
+    .modeloWindowArea{
+        display: none;
+    }
+
+    .models{
+        display: none;
+    }
+
+    .modelo-area{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .modelo-item{
+        text-align: center;
+        max-width: 250px;
+        font-family: "Lato", Helvetica, sans-serif;
+        margin: 0 auto 50px auto;
+    }
+
+    .modelo-item a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .modelo-item-img {
+        width: 230px;
+        height: 200px;
+        background-color: #eee;
+    }
+
+    .modelo-item-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+        box-shadow: 0px 10px 50px rgb(0, 0, 0, 0.2);
+    }
+
+    .modelo-item-add{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 25px;
+        background-color: rgb(165, 252, 252);
+        text-align: center;
+        font-size: 22px;
+        cursor: pointer;
+        transition: all ease 0.2s;
+        margin-top: 40px;  
+    }
+
+    .modelo-item a:hover .modelo-item-add{
+        background-color: rgb(86, 211, 200);
+    }
+
+    .modelo-item-price{
+        font-size: 15px;
+        color: #333;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .modelo-item-name{
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        margin-top: 10px;
+    }
+
+    .modelo-item-desc {
+        font-size: 13px;
+        color:#555;
+        margin-top: 10px;
+    }
+
+
+
