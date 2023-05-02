@@ -1,5 +1,5 @@
 :root {
-    --color-background: #eee;
+    --color-background: rgb(227, 246, 246);
     }
     
     * {
@@ -24,16 +24,38 @@
         padding: 20px;
     }
 
+    h1{
+        font-family: "Lato ital", Helvetica, sans-serif;
+        margin-bottom: 40px;
+    }
+
     header{
-        display: none;
+        display:none;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 60px;
+        position: fixed;
+        background-color: rgb(3, 216, 216);
+        align-items: center;
     }
 
-    .cart-area{
-        display: none;
+    .menu-openner{
+        margin-right: 15px;
+        font-size: 26px;
+        padding: 5px 20px;
+        border-radius: 5px;
     }
 
-    .modeloWindowArea{
+    .menu-openner span {
+        margin-right: 10px;
+    }
+
+    .menu-close{
+        width: 32px;
+        height: 32px;
         display: none;
+        font-size: 30px;
     }
 
     .models{
@@ -77,7 +99,7 @@
         height: 50px;
         line-height: 50px;
         border-radius: 25px;
-        background-color: rgb(165, 252, 252);
+        background-color: rgb(124, 231, 231);
         text-align: center;
         font-size: 22px;
         cursor: pointer;
@@ -86,7 +108,7 @@
     }
 
     .modelo-item a:hover .modelo-item-add{
-        background-color: rgb(86, 211, 200);
+        background-color: rgb(25, 207, 192);
     }
 
     .modelo-item-price{
@@ -107,6 +129,66 @@
         font-size: 13px;
         color:#555;
         margin-top: 10px;
+    }
+    
+    aside{
+        background-color: #9ce4e6;
+        width: 0vw;
+        overflow-x: hidden;
+        font-family: "Lato";
+    }
+
+    .cart-area{
+        padding: 20px;
+    }
+
+    .modeloWindowArea {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgb(255, 255, 255, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+    }
+
+
+    /*Media Queries*/
+    @media(max-width: 1000px){
+        .modelo-area{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+
+    @media (max-width: 840px) {
+        header{
+            display: flex;
+        }
+
+        main {
+            padding-top: 85px;
+        }
+
+        aside{
+            width: auto;
+            position: fixed;
+            left: 100vw;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .cart-area{
+            width: 100vw;
+        }
+
+        .menu-close{
+            display: block;
+        }
+
     }
 
 
