@@ -4,7 +4,7 @@ let modeloJson = [
       name: 'Câmera Instax Mini 9',
       img: 'img/cam1.png',
       price: 380.00,
-      sizes: ['malha', 'algodão', 'dry'],
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Cãmera instantânea Fujifilm-Azul bebê',
     },
     {
@@ -12,7 +12,7 @@ let modeloJson = [
       name: 'Câmera polaroid',
       img: 'img/cam2.png',
       price: 600.00,
-   /* sizes: ['algodão', 'malha', 'dry'],*/
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Câmera Polaroid fotográfica - Instantânea',
     },
     {
@@ -20,7 +20,7 @@ let modeloJson = [
       name: 'Câmera Canon',
       img: 'img/cam3.png',
       price: 500.00,
-  /*  sizes: ['dry', 'malha', 'algodão'],*/
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Câmera digital Canon',
     },
     {
@@ -28,7 +28,7 @@ let modeloJson = [
       name: 'Câmera Olympus-pen',
       img: 'img/cam4.png',
       price: 200.00,
-   /*sizes: ['algodão', 'malha', 'dry'],*/
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Câmera retro modelo antigo Olympus-pen',
     },
     {
@@ -36,7 +36,7 @@ let modeloJson = [
       name: 'Câmera modelo antigo',
       img: 'img/cam5.png',
       price: 150.00,
-  /* sizes: ['malha', 'algodão', 'dry'],*/
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Câmera modelo antigo - vibe vintage',
     },
     {
@@ -44,7 +44,7 @@ let modeloJson = [
       name: 'Câmera Sony',
       img: 'img/cam6.png',
       price: 850.00,
-  /*  sizes: ['malha', 'dry', 'algodão'],*/
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Câmera digital sony - portatil',
     },
     {
@@ -52,7 +52,7 @@ let modeloJson = [
       name: 'Câmera modelo antigo-ALPA',
       img: 'img/cam7.png',
       price: 250.00,
-  /*  sizes: ['malha', 'dry', 'dry'],*/
+      sizes: ['Preta', '(imagem)', 'Preta'],
       description: 'Câmera antiga retro - fácil manuseio',
     },
 
@@ -61,7 +61,7 @@ let modeloJson = [
         name: 'Câmera Sony',
         img: 'img/cam8.png',
         price: 400.00,
-  /*    sizes: ['malha', 'dry', 'dry'],*/
+        sizes: ['Preta', '(imagem)', 'Preta'],
         description: 'Câmera Digital Sony - pequena e portatil cor preta',
       },
 
@@ -70,7 +70,7 @@ let modeloJson = [
         name: 'Câmera Instax Mini 11',
         img: 'img/cam9.png',
         price: 450.00,
-  /*   sizes: ['malha', 'dry', 'dry'],*/
+        sizes: ['Preta', '(imagem)', 'Preta'],  /* sizes: ['malha', 'dry', 'dry'], */
         description: 'Câmera Instantânea - Mini 11 Preta',
       },  
   ];
