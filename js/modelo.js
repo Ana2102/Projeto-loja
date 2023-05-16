@@ -5,7 +5,7 @@ let modeloJson = [
       img: 'img/cam1.png',
       price: 380.00,
       sizes: ['Preta', '(imagem)', 'Preta'],
-      description: 'Cãmera instantânea Fujifilm-Azul bebê',
+      description: 'Câmera instantânea Fujifilm-Azul bebê',
     },
     {
       id: 2,

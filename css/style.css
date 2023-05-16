@@ -9,7 +9,7 @@
     color: black;
     text-decoration: none;
     list-style: none;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica,Arial, sans-serif;
     }
     
     body {
@@ -25,7 +25,7 @@
     }
 
     h1{
-        font-family: "Lato ital", Helvetica, sans-serif;
+        font-family:  Helvetica, sans-serif;
         margin-bottom: 40px;
     }
 
@@ -182,7 +182,7 @@
       }
       .modeloInfo {
         flex: 1;
-        font-family: 'Hepta Slab', Helvetica, Arial;
+        font-family: Helvetica, Arial;
         padding-bottom: 50px;
       }
       .modeloInfo h1 {
@@ -192,7 +192,7 @@
         font-size: 15px;
         color: #999;
         margin-top: 10px;
-        font-family: 'Lato', Helvetica, Arial;
+        font-family: Helvetica, Arial;
       }
       .modeloInfo-sector {
         color: #ccc;
@@ -205,6 +205,7 @@
         display: inline-flex;
         border-radius: 10px;
         overflow: hidden;
+        font-family: Helvetica, Arial;
       }
       .modeloInfo-size {
         padding: 10px 15px;
